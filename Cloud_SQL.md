@@ -6,7 +6,7 @@
 
 ![image](https://github.com/OlegZas/GCP_various/assets/115661636/c2f3a965-12db-46ee-afc8-73113a43bfe4)
 ---
-<h3>3. Imported data from the backet:</h3>
+<h3>3. Imported data from the bucket:</h3>
 
 ![image](https://github.com/OlegZas/GCP_various/assets/115661636/bc8f44f4-ea12-4a12-a7fe-5b0afec50c7b)
 ---
