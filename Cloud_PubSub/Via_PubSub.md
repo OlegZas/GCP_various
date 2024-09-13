@@ -17,6 +17,9 @@
 5. **Order & Packaging Services Notifications**  
    Both the order and packaging services also send messages to the notification service to provide the customer with updates on their order status.
 
+![image](https://github.com/user-attachments/assets/4691aabd-f9e7-4fba-bdb3-3e7a94a78829)
+
+
 ### Potential Issues with this Approach
 
 - **Tight Coupling**  
@@ -69,6 +72,9 @@ Messages are real-world events such as:
    The order service and notification service receive shipping event messages from Pub/Sub.
 
 ---
+
+![image](https://github.com/user-attachments/assets/d49fb8a3-e225-414d-bf4f-58815d47a43b)
+
 
 ### Benefits of Using Cloud Pub/Sub
 
