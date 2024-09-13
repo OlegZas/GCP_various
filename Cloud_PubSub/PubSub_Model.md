@@ -26,3 +26,8 @@ When the message is acknowledged by the subscriber, it is removed from the backl
 
 ## **Publisher – Subscriber Communication Types**
 
+![image](https://github.com/user-attachments/assets/3625344c-01fb-400f-857d-c62c91332862)
+
+![image](https://github.com/user-attachments/assets/34510a38-e037-4ea4-a0f5-cac17905999f)
+
+![image](https://github.com/user-attachments/assets/ddd81eb9-6544-482a-a476-39c7ad42f947)
