@@ -45,3 +45,6 @@ When the message is acknowledged by the subscriber, it is removed from the backl
 
 4. **Data Output**
    - Processed data is sent to **warehouses** or **analytical tools** for further use.
+
+  ![image](https://github.com/user-attachments/assets/399c8fbd-d092-4467-ad6d-d742fe1be8fd)
+
