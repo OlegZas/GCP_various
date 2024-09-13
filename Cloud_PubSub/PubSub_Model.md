@@ -31,3 +31,17 @@ When the message is acknowledged by the subscriber, it is removed from the backl
 ![image](https://github.com/user-attachments/assets/34510a38-e037-4ea4-a0f5-cac17905999f)
 
 ![image](https://github.com/user-attachments/assets/ddd81eb9-6544-482a-a476-39c7ad42f947)
+
+# **The Flow of Data**
+
+1. **Data Ingestion**
+   - Data is ingested into **Cloud Pub/Sub** from front-end services, databases, and other event producers.
+
+2. **Message Storage**
+   - **Cloud Pub/Sub** stores the ingested data as messages.
+
+3. **Data Processing**
+   - **Cloud Dataflow** or another event processing service receives the messages from **Cloud Pub/Sub** and enriches and processes the data.
+
+4. **Data Output**
+   - Processed data is sent to **warehouses** or **analytical tools** for further use.
