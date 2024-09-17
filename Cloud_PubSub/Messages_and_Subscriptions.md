@@ -13,6 +13,8 @@
 
 - A topic can have multiple subscriptions, but each subscription belongs to one topic.
 
+![image](https://github.com/user-attachments/assets/551292e2-d266-4151-a0f2-8e3c9476fea5)
+
 # Pull Delivery
 
 - In pull delivery, the subscriber application initiates requests to the Cloud via the API and needs authorized credentials.
