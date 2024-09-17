@@ -20,9 +20,13 @@
 - In pull delivery, the subscriber application initiates requests to the Cloud via the API and needs authorized credentials.
   - Any device on the internet with authorized credentials to call the API can serve as a pull endpoint.
 
+![image](https://github.com/user-attachments/assets/99288026-0db2-47fe-a32d-2717672fbb23)
+
 # Push Delivery
 
 - In push delivery, Pub/Sub initiates requests to the subscriber endpoint, which must be reachable with a DNS name and have an SSL certificate installed (not self-signed).
+
+![image](https://github.com/user-attachments/assets/25d8d324-776d-4f2b-9ac5-4449213ba170)
 
 # Load Balancing
 
