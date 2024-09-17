@@ -31,8 +31,13 @@
 # Load Balancing
 
 - **Pull Mechanism**: Multiple subscribers can make calls to the same subscription.
+
+![image](https://github.com/user-attachments/assets/af939fc6-5f3c-4716-ae20-da3cc4b29cd4)
+  
 - **Push Mechanism**: The push endpoint itself can be a load balancer, distributing the request to the appropriate backend.
 - Multiple subscriptions can point to the same endpoint.
+
+![image](https://github.com/user-attachments/assets/b7c41ee1-d579-4a5f-a4e8-7494fcba102c)
 
 # Pull vs Push: When to Use Each
 
