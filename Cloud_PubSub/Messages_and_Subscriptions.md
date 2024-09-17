@@ -7,6 +7,8 @@
 - To minimize latency, turn off batching.
 - Batching can be customized.
 
+  ![image](https://github.com/user-attachments/assets/a7c5ea86-5761-4b18-8ae9-f9ca7564fd2c)
+
 ## Pub/Sub Subscriptions
 
 - A topic can have multiple subscriptions, but each subscription belongs to one topic.
