@@ -1,5 +1,7 @@
 # Pub/Sub Messages
 
+![image](https://github.com/user-attachments/assets/84172220-ba7c-4fe9-8889-48a4ba5b61bf)
+
 - Multiple messages can be sent per service request (batching).
 - Batching increases message rate but introduces latency for individual messages, which are queued in memory until their batch is filled.
 - To minimize latency, turn off batching.
