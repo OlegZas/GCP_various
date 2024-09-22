@@ -7,6 +7,8 @@ Cloud Scheduler sends a message to a Pub/Sub topic that runs every **5 minutes**
 
 This setup serves as a good starting point for writing more advanced ETL pipelines.
 
+<img width="460" alt="image" src="https://github.com/user-attachments/assets/fcc533eb-ca69-48b7-97af-7c06d1354a6a">
+
 ## Steps
 
 1. **Create a Pub/Sub Topic**
