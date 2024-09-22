@@ -28,3 +28,5 @@ Virtual Private Cloud (VPC) networks in Google Cloud Platform (GCP) provide a pr
 
 - **Routing and Peering:**
   - VPC networks support dynamic routing and VPC peering, allowing you to connect multiple VPC networks within GCP for seamless communication.
+
+<img width="378" alt="image" src="https://github.com/user-attachments/assets/2332f39d-91b1-4f71-8fe5-3bd9339e2760">
