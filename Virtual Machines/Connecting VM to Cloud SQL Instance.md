@@ -49,4 +49,5 @@ Ensure your VM is in the same VPC network as your Cloud SQL instance or has acce
 
 Replace [PRIVATE_IP] with the private IP address of your Cloud SQL instance.
 
+<img width="506" alt="image" src="https://github.com/user-attachments/assets/89651463-af8e-46fb-9181-d7bafbdc7a96">
 
