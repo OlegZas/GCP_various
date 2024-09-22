@@ -1,6 +1,12 @@
 
 # Setting Up a Cloud Function with Pub/Sub and Scheduler
 
+# Overview of Cloud Scheduler with Pub/Sub and Cloud Function
+
+Cloud Scheduler sends a message to a Pub/Sub topic that runs every **5 minutes** (set up). This message will then trigger a Cloud Function to extract data from the Shopify store and print out the number of orders to the Cloud Function log. 
+
+This setup serves as a good starting point for writing more advanced ETL pipelines.
+
 ## Steps
 
 1. **Create a Pub/Sub Topic**
