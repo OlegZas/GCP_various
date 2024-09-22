@@ -29,6 +29,8 @@ Replace [CLOUD_SQL_IP] with the public IP address of your Cloud SQL instance, an
 
 ## 2. Private IP Connection
 
+<img width="313" alt="image" src="https://github.com/user-attachments/assets/78e50ec7-1e2b-4c5d-831e-ef4e2e888016">
+
 ### Enable Private IP
 
 If you want a more secure setup, create your Cloud SQL instance with a private IP.
