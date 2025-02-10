@@ -3,7 +3,7 @@
 
 ## 1. Open Zeppelin interface that is found in the details of your DataProc cluster under web interfaces. 
 
-![image](https://github.com/user-attachments/assets/21a1e991-1b78-43d0-908d-3097a9fa78ad)
+![image](https://github.com/user-attachments/assets/4cc3f89d-f583-4289-867f-61d88c45ae0d)
 
 ## 2. To set up Hive in Zeppelin, go to the interpreter and for Flink  interpreter enable hive.
 
