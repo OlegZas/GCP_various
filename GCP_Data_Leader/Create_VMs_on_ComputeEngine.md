@@ -9,7 +9,7 @@
 3. **Open SSH in Cloud Shell to be able to activate the instance and write commands in it:**  
    ![image](https://github.com/user-attachments/assets/4f681902-3acd-4587-bad3-531045eaeffd)
 
-4. **Run the following to install Apache2.**  
+4. **Run the following to install Apache2. This will be used to run your website outside of gcp.**  
    Apache2, also known as Apache HTTP Server, is one of the most widely used open-source web servers in the world. It serves as a platform for hosting websites and web applications.
 
 ```
@@ -29,3 +29,27 @@ sudo apt install apache2    # Install Apache2
   ```
   sudo systemctl start apache2  # Start Apache2 service
   ```
+
+6. **To access the site on port 80, you will need to create a firewall rule:**
+
+ **Creating a Firewall Rule in Google Cloud Platform (GCP)**
+
+Creating a firewall rule in Google Cloud Platform (GCP) is crucial for managing network traffic and securing your cloud resources. A firewall rule allows you to control which traffic can flow to and from your virtual machine (VM) instances, networks, and other services within GCP.
+
+a. **Get your IP address and paste it in the Source IP ranges:**
+
+![image](https://github.com/user-attachments/assets/687dc14e-99e1-49af-9e7b-603cac5f0866)
+
+b. **Specify the port:**
+
+   ![image](https://github.com/user-attachments/assets/d123127f-5852-4257-bf76-a7fa0ea1cf6b)
+
+   7. **View network details for your instance to check the firewall rules that apply** 
+      
+      ![image](https://github.com/user-attachments/assets/66a9384e-2735-4bef-9ea5-7bc4868b631d)
+
+8. ** Create a connectivity test to check connection between checkpoints so you can access your website outside of GCP**
+
+![image](https://github.com/user-attachments/assets/175d610c-675d-456e-80ae-68388ed11c09)
+
+
