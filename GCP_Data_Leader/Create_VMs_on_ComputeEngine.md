@@ -48,11 +48,11 @@ b. **Specify the port:**
       
       ![image](https://github.com/user-attachments/assets/66a9384e-2735-4bef-9ea5-7bc4868b631d)
 
-8. ** Create a connectivity test to check the connection between checkpoints so you can access your website outside of GCP**
+8. **Create a connectivity test to check the connection between checkpoints so you can access your website outside of GCP**
 
 ![image](https://github.com/user-attachments/assets/175d610c-675d-456e-80ae-68388ed11c09)
 
-9. ** Paste the external IP address of your instance in your browser's search bar **
+9. **Paste the external IP address of your instance in your browser's search bar **
 
 ![image](https://github.com/user-attachments/assets/34c81306-a69d-472d-8be3-b9959a8b1f2c)
 
