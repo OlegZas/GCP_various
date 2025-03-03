@@ -1,7 +1,9 @@
 - When you're accessing Workbench from Vertex AI, you're interacting with a managed environment designed to help you build and experiment with machine learning models in a collaborative way.
 - Vertex AI Workbench integrates Jupyter notebooks and other tools, enabling you to easily work with your data, build models, and deploy them—all within the Google Cloud ecosystem.
 
-## 1. I've created a Dataproc cluster instance https://github.com/OlegZas/GCP_various/tree/main/Dataproc%26ApacheHive 
+## 1. I've created a Dataproc cluster instance:
+
+- https://github.com/OlegZas/GCP_various/tree/main/Dataproc%26ApacheHive 
 
 ## 2. I can access VertexAI by opening Jupyter notebooks under my instance in Workbench.
 
