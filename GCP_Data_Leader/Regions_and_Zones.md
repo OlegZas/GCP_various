@@ -1,5 +1,3 @@
-# GCP Walkthrough Notes
-
 ## Regions
 A **region** is a single geographical location where your BigQuery dataset is stored (e.g., `us-central1`, `europe-west1`).
 
