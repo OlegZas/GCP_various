@@ -95,3 +95,12 @@ root@digitalleader:/home/olenarodri# echo $(hostname -i)
 10.128.0.21
 root@digitalleader:/home/olenarodri# 
 ```
+<img width="730" alt="image" src="https://github.com/user-attachments/assets/05b740c9-c70a-4447-a837-67642af0af77" />
+
+---
+
+``` bash echo "OLEG will learn more $(hostname)$(hostname -i)" > /var/www/html/index.html ``` -- send the message to the index.html
+
+---
+
+<img width="687" alt="image" src="https://github.com/user-attachments/assets/5e23d574-2cb2-4c9d-a6f9-ba05d10175c2" />
