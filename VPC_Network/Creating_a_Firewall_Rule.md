@@ -74,3 +74,24 @@ If everything is set up correctly, your VM should be accessible on the specified
 
 <img width="734" alt="image" src="https://github.com/user-attachments/assets/06ff131b-30ae-4d1b-ac18-61066bdf423a" />
 
+# Customizing the webpage: 
+- In order to costumize this page, you'd need to costumize files in the default Debian document root /var/www/html.
+Run the following in SSH: ```bash ls /var/www/html ```
+
+- you can send a text to a file by using pipe character > to send it to index.html file 
+
+  <img width="613" alt="image" src="https://github.com/user-attachments/assets/5b11653d-d37b-4bd4-9fba-2bc0c5ac2907" />
+# This is an apache server, hosting a simple page. 
+
+---
+# Adding a host name to show where the responses are coming from : 
+
+1. Type the following to get the host name and the host ip address:
+
+``` bash
+root@digitalleader:/home/olenarodri# echo $(hostname)
+digitalleader
+root@digitalleader:/home/olenarodri# echo $(hostname -i)
+10.128.0.21
+root@digitalleader:/home/olenarodri# 
+```
