@@ -67,3 +67,10 @@ If everything is set up correctly, your VM should be accessible on the specified
 
 
 <img width="387" alt="image" src="https://github.com/user-attachments/assets/298eb688-86e8-4df4-906b-89fc18a00534" />
+
+---
+
+## Once set up, copy the external IP of the VM into your address bar and it should take you to the Apache2 Debian Default Page. 
+
+<img width="734" alt="image" src="https://github.com/user-attachments/assets/06ff131b-30ae-4d1b-ac18-61066bdf423a" />
+
