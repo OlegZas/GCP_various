@@ -27,7 +27,8 @@ gcloud container clusters get-credentials oz-autopilot-cluster --region us-centr
 
 - To check the deployments:
   ```bash
-  kubectl get deployment```
+  kubectl get deployment
+  ```
   
 - You create a deployment to deploy a microservice using `kubectl`.
 
@@ -35,11 +36,13 @@ gcloud container clusters get-credentials oz-autopilot-cluster --region us-centr
 
 - To create a deployment for a microservice:
   ```bash
-  kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE```
+  kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
+  ```
 
 - To access what is inside the deployment, run:
   ```bash
-  kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080```
+  kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
+  ```
 
 – you are creating a service to despose the deployment to the outside world, type of service created here is LoadBalancer 
 -	kubectl get services – check the services that you have
