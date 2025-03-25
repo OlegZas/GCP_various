@@ -65,3 +65,26 @@ Object storage is a cloud-based storage system that stores data as objects, such
 ![image](https://github.com/user-attachments/assets/1f74bfb6-2db9-4d57-8234-312423a762f6)
 ![image](https://github.com/user-attachments/assets/571aecb8-bcc9-4c35-a2bf-102506dbfaac)
 
+---
+# Transferring from On-Premises to Cloud
+
+## Options:
+
+1. **Online Transfer**: Use `gsutil` or API to transfer data to Cloud Storage
+   - There are a number of APIs provided by Cloud Storage
+   - Good for one-time transfers
+   - Recommended only when transferring <1 TB from on-premises or another GCS bucket
+
+2. **Storage Transfer Service**: Recommended for large-scale (petabytes) online data transfer from AWS, Azure, private data centers, etc.
+   - Can set up a repeating schedule
+   - Supports incremental transfers
+   - Fault-tolerant
+   - Recommended when transferring more than 1 TB from anywhere or transferring from a different cloud
+
+![image](https://github.com/user-attachments/assets/f1ec534b-3933-4c5b-9039-d536d1910260)
+
+3. **Appliance Transfer**: For transfers of physical data with physical storage (physical appliance will be sent to you by Google)
+   - Used when data size is greater than 20 TB or when the transfer takes more than 1 week
+   - You transfer data to the appliance, ship it to Google, and Google copies that data into your storage
+
+![image](https://github.com/user-attachments/assets/b5e0f7a8-24a1-42ac-b74d-667e9c1588ad)
