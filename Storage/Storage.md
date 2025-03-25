@@ -50,3 +50,18 @@ Object storage is a cloud-based storage system that stores data as objects, such
     
  ![image](https://github.com/user-attachments/assets/5a039769-164e-44b4-a1d4-3187fed626fe)
 
+## Object life-cycle management: 
+-	Helps you to save costs by automatically moving files between the storage types 
+-	It is automated and you just set the conditions based on which they’ll be selected 
+-	Can only be moved down a class
+-	Identify objects using conditions: 
+  - o	Age, createdBefore, IsLive, MatchesStorageClass, NumberOfNewVersions etc. 
+### Two kinds of actions: 
+  - SetStorageClass actions (change from one storage class to another) 
+  - Deletion actions (delete objects)
+    
+![image](https://github.com/user-attachments/assets/c57da0e5-5759-4592-a90b-4c7e91d2fdf8)
+
+![image](https://github.com/user-attachments/assets/1f74bfb6-2db9-4d57-8234-312423a762f6)
+![image](https://github.com/user-attachments/assets/571aecb8-bcc9-4c35-a2bf-102506dbfaac)
+
