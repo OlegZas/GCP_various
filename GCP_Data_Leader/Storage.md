@@ -41,3 +41,50 @@ Object storage is a cloud-based storage system that stores data as objects, such
 - The CLI for Cloud Storage is `gsutil` (not `cloud`)
 - Commonly used to store text, binary files, backups, and archives
 ![image](https://github.com/user-attachments/assets/2e725592-f764-4337-a3a6-2f0bc503a131)
+
+##	Cloud Storage – Storage Classes: 
+- Storage class can be assigned to a specific object (otherwise will get default) 
+- All storage classes: 
+  - Unlimited storage
+  - Auto-scaling
+    
+ ![image](https://github.com/user-attachments/assets/5a039769-164e-44b4-a1d4-3187fed626fe)
+
+## Object life-cycle management: 
+-	Helps you to save costs by automatically moving files between the storage types 
+-	It is automated and you just set the conditions based on which they’ll be selected 
+-	Can only be moved down a class
+-	Identify objects using conditions: 
+  - o	Age, createdBefore, IsLive, MatchesStorageClass, NumberOfNewVersions etc. 
+### Two kinds of actions: 
+  - SetStorageClass actions (change from one storage class to another) 
+  - Deletion actions (delete objects)
+    
+![image](https://github.com/user-attachments/assets/c57da0e5-5759-4592-a90b-4c7e91d2fdf8)
+
+![image](https://github.com/user-attachments/assets/1f74bfb6-2db9-4d57-8234-312423a762f6)
+![image](https://github.com/user-attachments/assets/571aecb8-bcc9-4c35-a2bf-102506dbfaac)
+
+---
+# Transferring from On-Premises to Cloud
+
+## Options:
+
+1. **Online Transfer**: Use `gsutil` or API to transfer data to Cloud Storage
+   - There are a number of APIs provided by Cloud Storage
+   - Good for one-time transfers
+   - Recommended only when transferring <1 TB from on-premises or another GCS bucket
+
+2. **Storage Transfer Service**: Recommended for large-scale (petabytes) online data transfer from AWS, Azure, private data centers, etc.
+   - Can set up a repeating schedule
+   - Supports incremental transfers
+   - Fault-tolerant
+   - Recommended when transferring more than 1 TB from anywhere or transferring from a different cloud
+
+![image](https://github.com/user-attachments/assets/f1ec534b-3933-4c5b-9039-d536d1910260)
+
+3. **Appliance Transfer**: For transfers of physical data with physical storage (physical appliance will be sent to you by Google)
+   - Used when data size is greater than 20 TB or when the transfer takes more than 1 week
+   - You transfer data to the appliance, ship it to Google, and Google copies that data into your storage
+
+![image](https://github.com/user-attachments/assets/b5e0f7a8-24a1-42ac-b74d-667e9c1588ad)
