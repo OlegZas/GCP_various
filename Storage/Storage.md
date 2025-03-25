@@ -43,9 +43,10 @@ Object storage is a cloud-based storage system that stores data as objects, such
 ![image](https://github.com/user-attachments/assets/2e725592-f764-4337-a3a6-2f0bc503a131)
 
 ##	Cloud Storage – Storage Classes: 
-- o	Storage class can be assigned to a specific object (otherwise will get default) 
-- o	All storage classes: 
-  - 	Unlimited storage
-  - 	Auto-scaling
+- Storage class can be assigned to a specific object (otherwise will get default) 
+- All storage classes: 
+  - Unlimited storage
+  - Auto-scaling
+    
  ![image](https://github.com/user-attachments/assets/5a039769-164e-44b4-a1d4-3187fed626fe)
 
