@@ -2,6 +2,8 @@
 - **VMware** provides virtualization solutions (along with Compute Engine).
   - **GCP VMware Engine** is used to migrate VMware infrastructure to the GCP cloud.
   - Workloads run in a private cloud that runs natively on GCP bare metal infrastructure, and you wouldn’t need to change your processes, apps, or tools.
+
+<img width="356" alt="image" src="https://github.com/user-attachments/assets/f5fb80b6-d2b5-4dac-ae30-be3dddf1343a" />
  
 
 ## Key Features
