@@ -16,7 +16,4 @@
 - When you want to make use of 3rd party virtualization software (not Compute Engine).
 - When you have applications that need direct low-level access to the server, like **SAP HANA**.
 
-## Google Cloud VMware Engine
-- **VMware** provides virtualization solutions (along with Compute Engine).
-  - **GCP VMware Engine** is used to migrate VMware infrastructure to the GCP cloud.
-  - Workloads run in a private cloud that runs natively on GCP bare metal infrastructure, and you wouldn’t need to change your processes, apps, or tools.
+
