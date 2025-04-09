@@ -28,3 +28,29 @@ Google Cloud Platform (GCP) offers a range of pre-built ML models accessible via
   - **Classifying Images**: Classifies images into predefined categories.
   - **Object and Face Detection**: Detects objects and faces within images.
   - **Text Recognition**: Reads and extracts printed words from images.
+
+# ML – Custom Models
+
+## AutoML: Build custom models with minimum ML expertise and effort; simple models
+- **AutoML Vision**: Build custom models based on images
+  - Provide examples (e.g., images and categorization) and AutoML will create a model for you.
+  
+- **AutoML Video Intelligence**: Adds labels to videos
+  - Streaming video analysis.
+  
+- **AutoML Tables**: Automatically build models on structured data.
+
+## BigQuery ML: Write queries and build models using those queries
+- Based on data in BigQuery.
+
+## Vertex AI: Build and deploy ML models faster (custom or pre-built)
+- Manage the lifecycle of your models.
+- Custom tooling within a unified AI platform.
+- Entire lifecycle management of your ML model.
+
+## ML Optimization
+
+### TPU (Tensor Processing Units)
+- Attach to your computer and run ML workloads 20-30x faster.
+- Helps you quickly iterate over ML solutions and training data.
+- Attach to your VM created via GCE, CKE, or AI platform.
