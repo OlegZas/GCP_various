@@ -38,3 +38,5 @@ You can export billing data using the following methods:
 ---
 
 ![image](https://github.com/user-attachments/assets/3d69da2e-de8c-4f0c-82c4-71fee1e925ce)
+
+![image](https://github.com/user-attachments/assets/22976867-f4c0-4ed5-9692-54e1eb7aa7a3)
