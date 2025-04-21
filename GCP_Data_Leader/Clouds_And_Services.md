@@ -82,3 +82,5 @@
 - **Transparency and Security**: More transparent due to accessible and auditable source code, which enhances security as vulnerabilities can be promptly addressed.
 
 Overall, being "based on open infrastructure" emphasizes openness, flexibility, community collaboration, and reduced dependency on proprietary technologies, contributing to greater innovation, interoperability, and long-term sustainability for organizations.
+
+---

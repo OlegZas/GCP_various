@@ -86,3 +86,5 @@ The importance of the network in digital transformation is highlighted by its ro
 - **Regions**: Independent geographic areas (e.g., London or europe-west2) that consist of multiple zones.
 - **Zones**: Areas within regions where Google Cloud resources are deployed. Each zone ensures resource redundancy and resilience.
 - **Multi-Region**: Some Google Cloud services support placing resources in a multi-region setup (e.g., Europe multi-region), ensuring data redundancy across locations separated by a minimum distance.
+
+---

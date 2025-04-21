@@ -80,3 +80,5 @@ Google Cloud offers several tools to help control cloud consumption:
 - **Resource Quota Policies**: Set limits on the amount of resources used by a project or user to prevent overspending.
 - **Threshold Rules**: Set alerts for when cloud costs exceed a certain threshold.
 - **Cloud Billing Reports**: Provide a reactive method to track and understand spending and optimize costs.
+
+---

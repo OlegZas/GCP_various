@@ -8,7 +8,7 @@
 - Resources are used on demand, and you pay for what you use.
 - If an organization has the in-house expertise and willingness to manage the infrastructure, it can build solutions using **IaaS resources**. The IT team would have complete control over server configurations but would also bear the burden of managing and maintaining them.
 
-
+-
 
 ## PaaS (Platform as a Service)
 
