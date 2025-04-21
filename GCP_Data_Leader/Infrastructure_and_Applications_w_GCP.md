@@ -79,3 +79,6 @@ An **application** is a computer program or software that helps users do somethi
 - A multi-cloud environment is where an organization uses multiple public cloud providers as part of its architecture.
 
 **GKE Enterprise** is a managed production-ready platform for running Kubernetes applications across multiple cloud environments.
+
+
+---
