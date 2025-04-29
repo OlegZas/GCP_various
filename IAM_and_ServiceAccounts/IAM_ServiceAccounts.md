@@ -45,7 +45,9 @@ IAM is a system that enables administrators to manage who has access to specific
 
 - **Service accounts** are identified by email addresses and are often shared by users.
 - **Service accounts** do not require private user credentials.
-- When a **VM** is created using **Compute Engine**, it is assigned a default Compute Engine service account.
+- Service Account – used for application so they interact with each other and access each other’s resources 
+-	No username, no password. 	
+-  When a **VM** is created using **Compute Engine**, it is assigned a default Compute Engine service account.
 - Service accounts do not have a password, instead, they use private/public RSA key pairs.
 - By default, service accounts have **Editor** roles.
 
