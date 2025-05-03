@@ -41,4 +41,6 @@ Money spent to use the service or product.
 - **Example:** Provisioning VMs as needed
 - **Example:** Using cloud functions and paying based on invoices
 
+#PRICING CALCULATOR 
+
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/70b9e2dd-cd88-4ff4-a952-5612640323da" />
