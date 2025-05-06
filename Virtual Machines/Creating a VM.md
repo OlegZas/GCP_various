@@ -34,3 +34,6 @@
 
 11. **Monitor and Manage Your VM:**
     - Use the GCP console to monitor performance, set up alerts, and manage your VM as needed.
+
+# Creating Compute Engine VM from the Cloud Shell CLI: 
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/d42c5a88-459e-41a5-b929-1c43d49134fc" />
