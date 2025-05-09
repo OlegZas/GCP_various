@@ -85,4 +85,7 @@ Example of an email alert received when a scheduled query fails:
 > Severity: `ERROR`
 ![image](https://github.com/user-attachments/assets/70784f21-83ad-4bcb-80c5-5a16c1f3ac6a)
 
+---
+
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/c18b3115-e782-452b-aa4e-3b1e665ec9e4" />
 
