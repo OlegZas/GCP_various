@@ -103,3 +103,28 @@ gsutil mb --help # Specific help for the "make bucket" command
 3. Upload files: `gsutil cp LOCAL-FILE gs://YOUR-BUCKET-NAME/`
 4. List bucket contents: `gsutil ls gs://YOUR-BUCKET-NAME/`
 5. Download files: `gsutil cp gs://YOUR-BUCKET-NAME/FILE LOCAL-DESTINATION`
+   
+---
+
+## Interacting with COMPUTE ENGINE
+
+```bash
+### List VM instances
+gcloud compute instances list            # Show a list of the VM instances
+```
+
+### Create VM instances
+```bash
+gcloud compute instances create vm-oleg-cli    # Create a VM instance and choose a zone
+```
+![image](https://github.com/user-attachments/assets/934fd9d5-3468-4ba5-bf5b-f7492f838cc6)
+
+### Stop VM instance
+```bash
+gcloud compute instances stop vm-oleg-cli --zone us-west1-a
+```
+### Delete VM instance
+```bash
+gcloud compute instances delete vm-oleg-cli --zone us-west1-a    # Delete a VM instance
+![image](https://github.com/user-attachments/assets/27e5f2aa-43ab-46fb-ac3a-73da54ed30a0)
+```
