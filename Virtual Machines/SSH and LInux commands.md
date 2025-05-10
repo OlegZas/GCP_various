@@ -1,3 +1,13 @@
+# 🔐 What is an SSH key, really?
+
+It’s a pair of cryptographic keys:
+
+1. **Private Key** — kept secret on your machine  
+2. **Public Key** — shared with the remote server
+
+They work together like a lock and key — the server uses the public key to "lock" access, and only your private key can "unlock" it.
+
+
 # Basic Linux Commands and Apache2 Installation
 
 ### 1. `whoami` - List the user
