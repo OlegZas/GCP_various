@@ -41,7 +41,8 @@ Use this for running code that **responds to web requests, events, or functions*
 - **AI Inference**:  
   Host machine learning inference models or run model training, optionally with GPU support.
 
----
+--<img width="473" alt="image" src="https://github.com/user-attachments/assets/f2f54f05-7072-4e59-b1b8-ceef8231b0cb" />
+-
 
 ## ⚙️ Cloud Run Jobs
 Use this for running code that **performs a task and then exits**.
