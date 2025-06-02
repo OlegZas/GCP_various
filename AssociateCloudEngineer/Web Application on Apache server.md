@@ -19,10 +19,6 @@ When creating a VM, if there are issues accessing the SSH server, most likely it
 ![image](https://github.com/user-attachments/assets/c7dc1885-84f7-4e62-ac3a-173d91e24617)
 ![image](https://github.com/user-attachments/assets/f77f901d-0905-4021-9898-bf2f3192ce01)
 
----
-
-## Paste your HTML code:
-![image](https://github.com/user-attachments/assets/bac392c7-5ea4-478a-a777-e6fc5779cbf2)
 
 ---
 
@@ -43,3 +39,8 @@ When creating a VM, if there are issues accessing the SSH server, most likely it
 5. To exit nano, press:  
    - **Ctrl + X**
 ![image](https://github.com/user-attachments/assets/cab44b42-428b-4725-a11f-44ae5af17e0a)
+
+---
+
+## Paste your HTML code:
+![image](https://github.com/user-attachments/assets/bac392c7-5ea4-478a-a777-e6fc5779cbf2)
