@@ -76,3 +76,9 @@ To check what columns could be obtained from the message, set the subscriber to 
   "updateTime": "2025-06-13T17:26:15.748048Z",
   "userId": "-7208832463856785850"
 }
+```
+</details>
+
+---
+
+<img width="577" alt="image" src="https://github.com/user-attachments/assets/a8b822ed-f0cf-4015-bc05-9398b37e58ec" />
