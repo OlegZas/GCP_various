@@ -1,3 +1,16 @@
+# 🚀 Build and Deploy a Python Flask App to GKE Autopilot using Docker
+
+## 🎯 Demo Objectives
+
+- Create a GKE Autopilot Cluster  
+- Develop a Python Flask web application  
+- Create a Dockerfile to containerize the app  
+- Build and test the Docker image  
+- Create an Artifact Registry to store the image  
+- Push the Docker image to Artifact Registry  
+- Deploy the image on a GKE Autopilot cluster  
+- Access the application via a Kubernetes service
+
 # 🛠 Step 1: Prepare the Application
 
 In this demo, I deployed a Python Flask application as a Docker container on a Google Kubernetes Engine (GKE) Autopilot cluster.
