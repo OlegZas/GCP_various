@@ -30,6 +30,7 @@ In this demo, I deployed a Python Flask application as a Docker container on a G
 
 	Confirm upload:
 	gcloud storage ls gs://oz-docker-app/DockerImg_to_GKE
+![image](https://github.com/user-attachments/assets/417ac3fd-4326-4a36-9074-b6bebf965e82)
 
 # 📁 Step 2: Ensure Correct Folder Structure
 
@@ -66,6 +67,8 @@ Access the app by clicking the Web Preview → Port 8080 in Cloud Shell.
 
 > Note: This runs the Flask development server only for testing — not for production.
 
+![image](https://github.com/user-attachments/assets/3fff81ea-a6ca-449d-ade9-de36b88a1af6)
+
 # 🐳 Step 4: Create and Build Docker Image
 
 ### a. Create a Dockerfile
@@ -91,6 +94,7 @@ This file tells Docker how to build and run your app. It installs Flask, sets th
 	docker run -p 8080:8080 flask-app
 
 Click Web Preview on port 8080 to test the containerized app.
+![image](https://github.com/user-attachments/assets/848a8cef-e9dc-438b-acdb-9790c6d9dc34)
 
 # 🗂 Step 5: Create Artifact Registry
 
@@ -101,6 +105,7 @@ Artifact Registry is GCP’s container image storage solution. You’ll need it 
 	  --repository-format=docker \
 	  --location=us-central1 \
 	  --description="Docker repo for Flask app"
+![image](https://github.com/user-attachments/assets/0e612522-c7c9-4502-b190-1821d2168ca6)
 
 # 🔐 Step 6: Configure Docker to Use Artifact Registry
 
@@ -114,6 +119,7 @@ Run this once to authorize Docker to push to Artifact Registry:
 
 	docker tag flask-app \
 	us-central1-docker.pkg.dev/theta-topic-457803-u2/gke-app-oz/oz-docker-flask-app:latest
+![image](https://github.com/user-attachments/assets/7f38bbda-3cce-4d02-b5bd-c7235a72a0ca)
 
 ### b. Push the image to Artifact Registry:
 
@@ -123,6 +129,7 @@ Run this once to authorize Docker to push to Artifact Registry:
 ### c. Check your Docker images:
 
 	docker image ls
+![image](https://github.com/user-attachments/assets/082c5401-2b6c-4675-be67-f4218f1610ef)
 
 # ☸️ Step 8: Deploy Docker Image to GKE Autopilot
 
@@ -139,6 +146,12 @@ You can now deploy this image to your GKE Autopilot cluster:
 - Expose port 8080  
 - Complete deployment
 
+![image](https://github.com/user-attachments/assets/17b8cbea-afe2-42b7-abfe-9f79e96fb6bf)
+
+![image](https://github.com/user-attachments/assets/1808daf5-4e6d-436a-b51b-f980437618a6)
+
+![image](https://github.com/user-attachments/assets/5da91dea-937f-4388-a82d-bdc93e28d183)
+
 # 🌐 Step 9: Access the Application
 
 Once the app is deployed:
@@ -146,6 +159,8 @@ Once the app is deployed:
 - Scroll to the bottom of the workload details page  
 - Under **"Services & Ingress"**, click the external IP of the exposed service  
 - Your app should load in a browser!
+
+![image](https://github.com/user-attachments/assets/ea5bd48f-9d90-47c6-a3e0-6dd33e476691)
 
 # ✅ Summary
 
