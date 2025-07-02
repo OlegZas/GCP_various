@@ -46,18 +46,3 @@ Used to run a code that performs work and shuts down the instance when complete.
 		iv. Creating/sending invoices or saving DB query results as XML
 
 ---
-
-## 🛠 Creating a Cloud Run Service (with an Existing Container Image)
-
-1. **Options**:
-	- Deploy existing container image from Docker Artifact Registry
-	- Provide source code → Cloud Run builds Docker image and deploys it
-	- Use Cloud Functions (Cloud Run Functions)
-
-2. **Example**:  
-	I will use the test Docker image provided by GCP.
-
-3. **Access the App**:  
-	Click on the HTTP endpoint shown after deployment.
-
----
