@@ -1,4 +1,4 @@
-# ✅ When to Use Cloud Run Instead of GKE
+#  When to Use Cloud Run Instead of GKE
 
 ## Why Cloud Run?
 
@@ -7,7 +7,7 @@
 
 ---
 
-# 🔄 Best Use Cases for Cloud Run
+#  Best Use Cases for Cloud Run
 
 ## Event-Driven Apps
 *Example*: An app triggered by Pub/Sub messages or when files are uploaded to Cloud Storage.
