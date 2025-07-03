@@ -1,6 +1,6 @@
-# 🚀 Build and Deploy Python App on Cloud Run
+#  Build and Deploy a Python App on Cloud Run
 
-## ✅ Steps Overview
+##  Steps Overview
 
 1. **Create a Python Flask web app**  
 2. **Build a Docker container image from the app (manually)**  
@@ -10,7 +10,7 @@
 
 ---
 
-## 🔧 Step-by-Step Instructions
+##  Step-by-Step Instructions
 
 ### 1. Use Your Existing Flask App
 
@@ -45,7 +45,7 @@ Build the Docker image with the correct tag (registry path and version):
 
 	docker build -t us-central1-docker.pkg.dev/theta-topic-457803-u2/cloudrun-app/oz-run-demo:v01 .
 
-> 💡 **Note**:  
+>  **Note**:  
 > - `-t` assigns the tag (name)  
 > - `.` means "build from the current directory"  
 > - Make sure your `Dockerfile` is in the working directory.  
