@@ -58,4 +58,10 @@
 
 - a.	Use the CRON expression to schedule the frequency:
    -   i.	* * * * *
- 
+![image](https://github.com/user-attachments/assets/c070f900-44aa-4bac-8400-729cdbd97043)
+
+---
+
+![image](https://github.com/user-attachments/assets/f8c4b183-908e-4ef2-8838-46cf7fd9033f)
+
+---
