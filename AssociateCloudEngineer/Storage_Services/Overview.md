@@ -1,11 +1,12 @@
-# Storage Services 
-> [!TIP]
-> Tips to Choose: <br>
-> •	Use Cloud Storage for files and backups. <br>
-> •	Use Cloud SQL or AlloyDB for traditional apps needing SQL. <br>
-> •	Choose Spanner if your app needs SQL + global scale.<br>
-> •	Use Datastore or Bigtable for NoSQL, depending on complexity and size.<br>
-> •	Choose BigQuery for reporting and large-scale analytics.<br>
+#  Storage Services
+
+> **Tips to Choose:**  
+> • Use **Cloud Storage** for files and backups.  
+> • Use **Cloud SQL** or **AlloyDB** for traditional apps needing SQL.  
+> • Choose **Spanner** if your app needs SQL **plus global scale**.  
+> • Use **Datastore** or **Bigtable** for **NoSQL**, depending on complexity and size.  
+> • Choose **BigQuery** for **reporting and large-scale analytics**.
+
 
 ---
  ![image](https://github.com/user-attachments/assets/6c904c7b-1eef-4478-9a7a-dce3cc65b9a3)
