@@ -31,3 +31,17 @@ Data is stored in Google Cloud Storage (GCS) in open formats such as Parquet, OR
 
 #### Best for:
 Large-scale analytics on raw or semi-structured data stored in GCS, without the need for data ingestion. This setup helps optimize storage costs by avoiding duplication of data and allows for fast querying.
+### 2. BigLake Tables on Remote Cloud Storage (AWS / Azure)
+
+Data stored in external cloud storage services, such as Amazon S3 or Azure Blob Storage, can be accessed via BigQuery Omni using BigLake connectors. This allows users to run SQL queries on data stored in AWS or Azure without needing to transfer the data into Google Cloud.
+
+#### Key Features:
+- Data resides in Amazon S3 or Azure Blob Storage and is accessed remotely.
+- BigQuery Omni enables the querying of this data directly via BigQuery SQL, ensuring consistency across clouds.
+
+#### Best for:
+Organizations leveraging a multicloud strategy who want to run analytics across different cloud platforms with minimal data movement, reducing costs and complexity. It is ideal for those who need to perform analytics without the overhead of transferring large datasets between cloud providers.
+
+---
+
+These two types of BigLake Tables give organizations the flexibility to analyze data wherever it resides—whether in Google Cloud Storage, Amazon S3, or Azure Blob Storage—while maintaining performance, security, and cost-efficiency.
