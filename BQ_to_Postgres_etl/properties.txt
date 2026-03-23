@@ -1,0 +1,5 @@
+pandas
+google-cloud-bigquery
+pandas-gbq
+sqlalchemy
+psycopg2-binary
