@@ -8,7 +8,9 @@ on:
 env:
   PROJECT_ID: 'migration-490817'
   REGION: 'us-central1' 
-  SERVICE: 'bq-to-postgres-job' 
+  JOB_NAME: 'bq-to-postgres-job'
+  REPO: 'bq-to-postgres-job' # The name of the Artifact Registry repository
+  IMAGE: 'etl-image'         # A distinct name for the image inside the repo
   WORKLOAD_IDENTITY_PROVIDER: 'projects/670248038234/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
 
 jobs:
@@ -39,28 +41,25 @@ jobs:
 
       - name: 'Build and Push Container'
         run: |-
-          DOCKER_TAG="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.SERVICE }}/${{ env.SERVICE }}:${{ github.sha }}"
-          # We point to the subfolder here
-          docker build --tag "${DOCKER_TAG}" ./BQ_to_Postgres_etl
-          docker push "${DOCKER_TAG}"
+          # The path is now explicitly constructed to avoid duplicate naming confusion
+          IMAGE_PATH="${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO }}/${{ env.IMAGE }}:${{ github.sha }}"
+          
+          docker build --tag "${IMAGE_PATH}" ./BQ_to_Postgres_etl
+          docker push "${IMAGE_PATH}"
 
       - name: 'Deploy to Cloud Run Job'
         uses: 'google-github-actions/deploy-cloudrun@v2'
         with:
-          # Changed from 'service' to 'job'
-          job: '${{ env.SERVICE }}'
+          job: '${{ env.JOB_NAME }}'
           region: '${{ env.REGION }}'
-          image: '${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.SERVICE }}/${{ env.SERVICE }}:${{ github.sha }}'
-          # Passing the database credentials to the Python script
+          image: '${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPO }}/${{ env.IMAGE }}:${{ github.sha }}'
           env_vars: |-
             DB_USER=${{ secrets.DB_USER }}
             DB_PASSWORD=${{ secrets.DB_PASSWORD }}
             DB_HOST=${{ secrets.DB_HOST }}
             DB_NAME=${{ secrets.DB_NAME }}
-          # Use your specific service account
           flags: '--service-account=bq-to-postgres@migration-490817.iam.gserviceaccount.com'
 
       - name: 'Execute Cloud Run Job (Optional)'
-        # This command actually starts the script immediately after deploying
         run: |-
-          gcloud run jobs execute ${{ env.SERVICE }} --region ${{ env.REGION }} --wait
+          gcloud run jobs execute ${{ env.JOB_NAME }} --region ${{ env.REGION }} --wait
