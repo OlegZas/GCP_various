@@ -1,4 +1,4 @@
-# Use a slim version of Python to keep the image small
+# Use a slim version of Python to keep the image small 
 FROM python:3.11-slim
 
 # Install system dependencies required for PostgreSQL and GCC
