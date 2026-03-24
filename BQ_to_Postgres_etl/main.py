@@ -4,7 +4,7 @@ from sqlalchemy import create_engine, text
 from google.cloud import bigquery
 
 # CONFIGURATION (Set these in GitHub Secrets)
-DB_USER = os.environ.get("DB_USER")
+DB_USER = os.environ.get("DB_USER") 
 DB_PASS = os.environ.get("DB_PASSWORD")
 DB_NAME = os.environ.get("DB_NAME", "postgres")
 DB_HOST = os.environ.get("DB_HOST")
