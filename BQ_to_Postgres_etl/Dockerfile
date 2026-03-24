@@ -1,4 +1,4 @@
-# Use a slim version of Python to keep the image small
+t# Use a slim version of Python to keep the image small
 FROM python:3.11-slim
 
 # Install system dependencies required for PostgreSQL and GCC
@@ -12,7 +12,7 @@ WORKDIR /app
 
 # Copy requirements and install them
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r properties.txt
 
 # Copy the rest of your code
 COPY . .
