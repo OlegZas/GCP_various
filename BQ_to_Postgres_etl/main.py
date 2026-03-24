@@ -8,7 +8,7 @@ DB_USER = os.environ.get("DB_USER")
 DB_PASS = os.environ.get("DB_PASSWORD")
 DB_NAME = os.environ.get("DB_NAME", "postgres")
 DB_HOST = os.environ.get("DB_HOST")
-PROJECT_ID = "app-orf-cn-qa-5qu9"
+PROJECT_ID = "migration-490817"
 
 def get_engine():
     # Note: If using Private IP in VPC, DB_HOST is the internal IP
