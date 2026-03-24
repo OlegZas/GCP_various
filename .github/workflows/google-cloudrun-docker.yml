@@ -55,7 +55,10 @@ jobs:
             DB_PASSWORD=${{ secrets.DB_PASSWORD }}
             DB_HOST=${{ secrets.DB_HOST }}
             DB_NAME=${{ secrets.DB_NAME }}
-          flags: '--service-account=bq-to-postgres@migration-490817.iam.gserviceaccount.com'
+          flags: |-
+            --service-account=bq-to-postgres@migration-490817.iam.gserviceaccount.com
+            --vpc-connector=projects/migration-490817/locations/us-central1/connectors/bq-to-postgres-conn
+            --egress=private-ranges-only
 
       - name: 'Execute Cloud Run Job (Optional)'
         run: |-
