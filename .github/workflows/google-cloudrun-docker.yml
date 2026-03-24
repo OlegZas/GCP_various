@@ -44,16 +44,23 @@ jobs:
           docker build --tag "${DOCKER_TAG}" ./BQ_to_Postgres_etl
           docker push "${DOCKER_TAG}"
 
-      - name: 'Deploy to Cloud Run'
-        id: 'deploy'
+      - name: 'Deploy to Cloud Run Job'
         uses: 'google-github-actions/deploy-cloudrun@v2'
         with:
-          service: '${{ env.SERVICE }}'
+          # Changed from 'service' to 'job'
+          job: '${{ env.SERVICE }}'
           region: '${{ env.REGION }}'
           image: '${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.SERVICE }}/${{ env.SERVICE }}:${{ github.sha }}'
-          # This tells Cloud Run to run as your specific service account
+          # Passing the database credentials to the Python script
+          env_vars: |-
+            DB_USER=${{ secrets.DB_USER }}
+            DB_PASSWORD=${{ secrets.DB_PASSWORD }}
+            DB_HOST=${{ secrets.DB_HOST }}
+            DB_NAME=${{ secrets.DB_NAME }}
+          # Use your specific service account
           flags: '--service-account=bq-to-postgres@migration-490817.iam.gserviceaccount.com'
 
-      - name: 'Show output'
+      - name: 'Execute Cloud Run Job (Optional)'
+        # This command actually starts the script immediately after deploying
         run: |-
-          echo ${{ steps.deploy.outputs.url }}
+          gcloud run jobs execute ${{ env.SERVICE }} --region ${{ env.REGION }} --wait
