@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Copy requirements and install them
-COPY requirements.txt .
+COPY properties.txt .
 RUN pip install --no-cache-dir -r properties.txt
 
 # Copy the rest of your code
